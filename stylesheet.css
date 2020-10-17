@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+.brand{
+    font-weight: 900;
+    font-size: xx-large;
+}
+.navitems{
+    font-size: 20px;
+}
+.signup{
+    border: 1px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.icon-bar{
+    
+}
