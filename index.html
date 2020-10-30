@@ -5,31 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tripupp HR Demo</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <a class="navbar-brand" href="#">Coursify</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Board</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Books</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Why Us?</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#">SignUp</a>
+              </li>    
+          </ul>
+        </div>  
+      </nav>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="ml-5 mt-5 pt-5">
+                <h1>Every Student Matters</h1>
+                <h4>Get your doubts clarified and attended live classes</br>
+                        in the language of your choice.
+                </h4> 
+                <input type="text" class="form-control mt-4" placeholder="Search your doubt here">
+                <button class="btn btn-default appbtn mt-4">
+                    Get the free app on Play Store
+
                 </button>
-                <a class="navbar-brand brand" href="#">Coursify</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav navbar-right navitems">
-                <li><a href="#">Boards</a></li>
-                <li><a href="#">Books</a></li>
-                <li><a href="#">Exams</a></li>
-                <li><a href="#">Why Us?</a></li>
-                <li class="signup"><a href="#">Sign UP</a></li>
-                </ul>
             </div>
         </div>
-    </nav>        
+        <div class="col-lg-6 col-md-6 col-sm-12">
+           <img src="img1.jpeg" alt="img" class="img-responsive rounded mt-3 pr-3" style="width: 100%;">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <i class="fa fa-video-camera cam mr-4" aria-hidden="true"></i><b>10,00,000+ video lectures</b>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <i class="fa fa-smile-o cam mr-4" aria-hidden="true"></i>
+                    <b>40,000+ </b>
+                    <b>Satisfied Students</b>
+                </div>    
+            </div>
+        </div>
+    </div>  
+    
+    <div class="row mt-5">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="card  secondcard">
+                <div class="card-body text-center">
+                    <h4 class="card-text heading">Live Classes </h4>
+                    <h3 class="card-text heading1">Learn live from the best tutors in India</h3>
+                    <button class="btn btn-default  appbtn mt-4">
+                        Book now 
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="card border-dark">
+                <div class="card-body text-center">
+                    <h4 class="card-text">Earn Cash </h4>
+                    <h3 class="card-text">Ask doubts Answer questions Earn Money!</h3>
+                    <button class="btn btn-default  appbtn mt-4">
+                        Explore
+                    </button>
+                </div>
+            </div>
+        </div>    
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="card border-dark">
+                <div class="card-body text-center">
+                    <h4 class="card-text">Exam Preparation </h4>
+                    <h3 class="card-text">JEE Mains JEE Advanced NEET</h3>
+                    <button class="btn btn-default  appbtn mt-4">
+                        Explore
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">  
+            <div class="card border-dark">
+                <div class="card-body text-center">
+                    <h4 class="card-text">Sample Tests </h4>
+                    <h3 class="card-text">Test with detailed analysis national ranking</h3>
+                    <button class="btn btn-default  appbtn mt-4">
+                        Explore
+                    </button>
+                </div>
+            </div>
+        </div> 
+    </div>  
+
+    <h4 class="mt-5">Exams that you can ace with coursify</h4>
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card border-dark">
+                <div class="card-body text-center">
+                    <h4 class="card-text">Board Exams</h4>
+                </div> 
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card border-dark">
+                <div class="card-body text-center">
+                    <h4 class="card-text">JEE Mains & Advanced</h4>
+                </div> 
+            </div>
+        </div>    
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card border-dark">
+                <div class="card-body text-center">
+                    <h4 class="card-text">NEET</h4>
+                </div> 
+            </div> 
+        </div>
+    </div>
+    
 </body>
 </html>
