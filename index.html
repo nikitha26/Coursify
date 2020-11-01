@@ -11,131 +11,156 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-light navbar-light">
-        <a class="navbar-brand" href="#">Coursify</a>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+        <a class="navbar-brand brand" href="#"> <img src="img/logo.png" alt="logo" style="width:50px;height:50px;">Coursify</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar1">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Board</a>
+              <a class="nav-link py-0" href="#">Live Classes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Exams</a>
+              <a class="nav-link py-0" href="#">Video Library</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Books</a>
+              <a class="nav-link py-0" href="#">Course</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Why Us?</a>
+                <a class="nav-link py-0" href="#">Book</a>
               </li> 
-              <li class="nav-item">
-                <a class="nav-link" href="#">SignUp</a>
-              </li>    
+            <li class="nav-item">
+                <a class="nav-link py-0" href="#">Board</a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link py-0" href="#">Exam</a>
+            </li>    
           </ul>
         </div>  
-      </nav>
-    <div class="row">
+    </nav>
+ <!-- navbar ended -->
+
+ <!-- first screen start -->
+    <div class="row mt-5 pt-5">
         <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="ml-5 mt-5 pt-5">
-                <h1>Every Student Matters</h1>
-                <h4>Get your doubts clarified and attended live classes</br>
-                        in the language of your choice.
-                </h4> 
-                <input type="text" class="form-control mt-4" placeholder="Search your doubt here">
-                <button class="btn btn-default appbtn mt-4">
-                    Get the free app on Play Store
-
+                <h1 class="mainheading ml-5">Clarify your <span class="highlighted">doubts</span> <br>in your language .</h1>
+                <button class="btn btn-default appbtn ml-5 mt-4">
+                    <i class="fa fa-level-down arrow" aria-hidden="true"></i>
+                     Ask your doubt now
                 </button>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-           <img src="img1.jpeg" alt="img" class="img-responsive rounded mt-3 pr-3" style="width: 100%;">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <i class="fa fa-video-camera cam mr-4" aria-hidden="true"></i><b>10,00,000+ video lectures</b>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <i class="fa fa-smile-o cam mr-4" aria-hidden="true"></i>
-                    <b>40,000+ </b>
-                    <b>Satisfied Students</b>
-                </div>    
-            </div>
+           <!-- <img src="img/img1.jpeg" alt="img" class="img-responsive rounded mt-3 pr-3" style="width: 100%;"> -->
+           <!-- <iframe class="video" width="100%" height="400px" src="https://www.youtube.com/embed/z7kSTzVk1ig">
+           </iframe> -->
         </div>
-    </div>  
-    
-    <div class="row mt-5">
-        <div class="col-lg-3 col-md-3 col-sm-12">
-            <div class="card  secondcard">
-                <div class="card-body text-center">
-                    <h4 class="card-text heading">Live Classes </h4>
-                    <h3 class="card-text heading1">Learn live from the best tutors in India</h3>
-                    <button class="btn btn-default  appbtn mt-4">
-                        Book now 
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">
-            <div class="card border-dark">
-                <div class="card-body text-center">
-                    <h4 class="card-text">Earn Cash </h4>
-                    <h3 class="card-text">Ask doubts Answer questions Earn Money!</h3>
-                    <button class="btn btn-default  appbtn mt-4">
-                        Explore
-                    </button>
-                </div>
-            </div>
-        </div>    
-        <div class="col-lg-3 col-md-3 col-sm-12">
-            <div class="card border-dark">
-                <div class="card-body text-center">
-                    <h4 class="card-text">Exam Preparation </h4>
-                    <h3 class="card-text">JEE Mains JEE Advanced NEET</h3>
-                    <button class="btn btn-default  appbtn mt-4">
-                        Explore
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12">  
-            <div class="card border-dark">
-                <div class="card-body text-center">
-                    <h4 class="card-text">Sample Tests </h4>
-                    <h3 class="card-text">Test with detailed analysis national ranking</h3>
-                    <button class="btn btn-default  appbtn mt-4">
-                        Explore
-                    </button>
-                </div>
-            </div>
-        </div> 
     </div>  
 
-    <h4 class="mt-5">Exams that you can ace with coursify</h4>
-    <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="card border-dark">
-                <div class="card-body text-center">
-                    <h4 class="card-text">Board Exams</h4>
-                </div> 
+    <!-- first screen ended -->
+
+    <!-- Cards start -->
+    <div class="container ">
+        <div class="row mt-5 pt-5 mb-5">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="card  secondcard">
+                    <div class="card-body text-center">
+                        <i class="fa fa-graduation-cap card1" aria-hidden="true"></i>
+                        <h4 class="card-text">40,000+ </h4>
+                        <h4 class="card-text">students doubts cleared</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="card  secondcard">
+                    <div class="card-body text-center">
+                        <i class="fa fa-book card1" aria-hidden="true"></i>
+                        <h4 class="card-text">20+ </h4>
+                        <h4 class="card-text">State boards</h4>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="card secondcard">
+                    <div class="card-body text-center">
+                        <i class="fa fa-video-camera card1" aria-hidden="true"></i>
+                        <h4 class="card-text">1,000,000+ </h4>
+                        <h4 class="card-text">Video lectures</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">  
+                <div class="card secondcard">
+                    <div class="card-body text-center">
+                        <i class="fa fa-book card1" aria-hidden="true"></i>
+                        <h4 class="card-text">5000+</h4>
+                        <h4 class="card-text">Books covered</h4>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+    </div>
+    <!-- Cards ended -->
+
+    <!-- solve doubts faster start -->
+    <div class="row ml-5">
+        <div class="col-lg-6 col-md-6 col-sm-12  mt-5">
+            <h1 class="mainheading">Solve your doubts <span class="highlighted">faster .</span></h1>
+            <i class="fa fa-universal-access access" aria-hidden="true"></i>
+            <span class="access1 ml-5">Accesible every where </span>
+            <!-- <p class="subhead ml-5">Access quality education anytime, anywhere .</p> -->
+            <br>
+            <i class="fa fa-file-video-o access" aria-hidden="true"></i></i>
+            <span class="access1 ml-5">1 million+ videos </span>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+            <img src="img/img1.jpeg" alt="img1" class="img-fluid rounded" id="image">
+        </div>    
+    </div>
+    <!-- solve doubts faster ended -->
+
+    <!--How it works start  -->
+    <div class="container my-5">
+        <h1 class="text-center mb-5" id="rounded">How it works ?</h1>
+        <div class="row text-center">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="img/roundimage5.jpeg" alt="img1" class="img-fluid rounded-circle img3"/>
+                <h5 class="head">Have a doubt ?</h5>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="img/roundimage4.jpeg" alt="img1" class="img-fluid rounded-circle img3"/>
+                <h5 class="head2">Type your question <br>OR <br>Upload an image</h5>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="img/roundimage5.jpeg" alt="img1" class="img-fluid rounded-circle img3"/>
+                <h5 class="head">Get your solution </h5>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="card border-dark">
-                <div class="card-body text-center">
-                    <h4 class="card-text">JEE Mains & Advanced</h4>
-                </div> 
+        <div class="row mb-5">
+            <div class="col text-center">
+                <button class="btn btn-default appbtn ml-5 mt-4">
+                    Clarify your doubts now !
+                </button>
             </div>
-        </div>    
-        <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="card border-dark">
-                <div class="card-body text-center">
-                    <h4 class="card-text">NEET</h4>
-                </div> 
-            </div> 
         </div>
     </div>
-    
+   <!--How it works ended  -->
+
+   <!-- Live classes start -->
+   <h1 class="text-center mt-5" id="work"><span class="highlighted">Live</span> Classes</h1>
+    <div class="row ml-5">
+       <div class="col-lg-6 col-md-6 col-sm-12">
+           
+       </div>
+       <div class="col-lg-6 col-md-6 col-sm-12">
+        <i class="fa fa-universal-access access" aria-hidden="true"></i>
+        <span class="access1">Accesible every where </span>
+       </div>
+    </div>
+
+   <!-- Live classes ended -->
 </body>
 </html>

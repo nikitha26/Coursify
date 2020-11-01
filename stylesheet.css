@@ -1,34 +1,86 @@
 body{
     margin: 0px;
+    background-image: url("img/backgroundimg (1).png") !important;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.brand{
+    font-size: 30px !important;
+    color: rgb(28, 28, 139) !important;
+    font-weight: 900 !important;
 }
 .nav-item{
-    margin: 10px;
+    margin: 15px;
+}
+.nav-link{
+    color:black !important;
+    font-size: 18px;
+    font-weight: 400px;
 }
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-
+.mainheading{
+    font-weight:bolder !important;
+}
+.highlighted{
+    color:rgb(28, 28, 139);
+}
 .appbtn{
-    border: 2px solid black !important;
-    border-radius: 25px !important;
+    border-radius: 15px !important;
     padding: 10px;
+    background-color: rgb(201, 20, 119) !important;
+    color: white !important;
+    font-size: 20px !important;
 }
-.cam{
-    font-size: 5rem  !important;
-    color: blue;
+.arrow{
+    color:white;
 }
-b{
-    vertical-align: 25px;
-
+.video{
+    border: 10px solid rgb(216, 14, 182);
+    border-radius: 20px;
 }
 .secondcard{
- box-shadow: 2px 2px 2px 2px orange;
+ box-shadow: 2px 2px 2px 2px silver;
 }
-.heading{
-    border-bottom: 2px solid silver;
-    font-family: italic;
+.card1{
+    font-size: 40px !important;
+    color:rgb(255, 196, 0);
+    box-shadow: 1px silver;
+    line-height: 2 !important;
 }
-.heading1{
-    font-family: italic;
+h4{
+    color: rgb(201, 20, 119)
+}
+.access{
+    color: blue;
+    font-size:80px !important;
+    line-height:2 !important ;
+}
+.access1{
+    font-size: 25px;
+    font-weight: bold;
+    /* vertical-align: 30px; */
+}
+#image{
+    width: 100%;
+    border: 5px solid blue;
+}
+.img3{
+    box-shadow:2px 2px 2px 3px silver;
+}
+.head{
+    line-height: 3 !important;
+    color: rgb(29, 120, 238);
+}
+.head2{
+    line-height: 2 !important;
+}
+#rounded{
+    color:rgb(28, 28, 139);
+    font-weight: bold;
+}
+#work{
+    font-weight: bold;
 }
