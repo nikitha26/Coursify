@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+}
+.first{
     background-image: url("img/backgroundimg (1).png") !important;
     background-repeat: no-repeat;
     width: 100%;
@@ -29,7 +31,7 @@ html, body {
 }
 .appbtn{
     border-radius: 15px !important;
-    padding: 10px;
+    padding: 15px !important;
     background-color: rgb(201, 20, 119) !important;
     color: white !important;
     font-size: 20px !important;
@@ -38,37 +40,44 @@ html, body {
     color:white;
 }
 .video{
-    border: 10px solid rgb(216, 14, 182);
+    border: 6px solid rgb(20, 221, 30);
     border-radius: 20px;
 }
 .secondcard{
- box-shadow: 2px 2px 2px 2px silver;
+ box-shadow: 8px 8px 8px 8px rgb(235, 239, 248);
 }
 .card1{
     font-size: 40px !important;
-    color:rgb(255, 196, 0);
-    box-shadow: 1px silver;
+    color:rgb(255, 0, 157);
+    box-shadow:1px rgb(217, 228, 230) !important;
     line-height: 2 !important;
 }
 h4{
-    color: rgb(201, 20, 119)
+    color: rgb(36, 68, 128)
 }
 .access{
     color: blue;
+    opacity: 0.7;
     font-size:80px !important;
-    line-height:2 !important ;
-}
-.access1{
+} 
+#access1{
     font-size: 25px;
-    font-weight: bold;
-    /* vertical-align: 30px; */
+    font-weight: bold;    
 }
 #image{
     width: 100%;
-    border: 5px solid blue;
+    height: auto;
+    border: 10px solid rgb(227, 239, 241);
+    border-radius: 20px !important;
+    box-shadow: 5px 5px 5px 5px rgb(19, 29, 31);
+
 }
 .img3{
-    box-shadow:2px 2px 2px 3px silver;
+    box-shadow:5px 5px 5px 5px rgb(216, 235, 235);
+}
+.img3:hover{
+    box-shadow:1px 1px 1px 1px rgba(113, 120, 124, 0.6);
+    border:2px solid red;
 }
 .head{
     line-height: 3 !important;
@@ -83,4 +92,24 @@ h4{
 }
 #work{
     font-weight: bold;
+}
+.jee{
+    box-shadow: 4px 4px 4px 4px rgb(125, 128, 128);
+}
+.jeebackground{
+    background-image: url("img/backgroundimg (4).png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.neetbackground{
+    background-image: url("img/backgroundimg (7).png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.special:hover{
+   border: 1px solid rgb(255, 0, 157) !important;
+   transform: scale(1.1);
+}
+.special{
+    transition: transform .2s;
 }
