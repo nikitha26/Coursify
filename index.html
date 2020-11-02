@@ -6,6 +6,7 @@
     <title>Tripupp HR Demo</title>
     <!-- Stylesheet Link -->
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="index.js"></script>
     <!--Bootstrap Links -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -16,11 +17,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Popper.js Link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <!-- navbar start -->
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
-        <a class="navbar-brand brand" href="#"> <img src="img/logo.png" alt="logo" style="width:50px;height:50px;">Coursify</a>
+        <a class="navbar-brand brand" href="#"> <img src="img/C (2).png" alt="logo" style="width:50px;height:50px;">Coursify</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,10 +53,10 @@
  <!-- navbar ended -->
 
  <!-- first screen start -->
-    <div class="first">
+    <div class="first mb-5">
         <div class="row mt-5 pt-5">
             <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="ml-5 mt-5 pt-5">
+                <div class="ml-5 mt-5 pt-5 pl-5">
                     <h1 class="mainheading ml-5 animate__animated animate__fadeInUp">Clarify your <span class="highlighted">doubts</span> <br>in your language .</h1>
                     <button class="btn btn-default appbtn ml-5 mt-4 animate__animated animate__fadeInUp">
                         <i class="fa fa-level-down arrow" aria-hidden="true"></i>
@@ -61,8 +64,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-               <!-- <img src="img/img1.jpeg" alt="img" class="img-responsive rounded mt-3 pr-3" style="width: 100%;"> -->
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-5 pr-5">
                <iframe class="video" width="100%" height="400px" src="https://www.youtube.com/embed/RnB0VXkZ87w">
                </iframe>
             </div>
@@ -71,51 +73,43 @@
     <!-- first screen ended -->
 
     <!-- Cards start -->
-    <div class="container ">
-        <div class="row mt-5 pt-5 mb-5">
-            <div class="col-12 col-lg-3 col-xl-3 col-md-3 ">
-                <div class="card  secondcard special border-0">
-                    <div class="card-body text-center">
-                        <i class="fa fa-graduation-cap card1" aria-hidden="true"></i>
-                        <h4 class="card-text">40,000+ </h4>
-                        <h4 class="card-text">students doubts cleared</h4>
-                    </div>
+    <div class="container mt-5 pt-5 mb-5">
+        <div class="card-deck">
+            <div class="card  secondcard special border-0">
+                <div class="card-body text-center">
+                    <i class="fa fa-graduation-cap card1" aria-hidden="true"></i>
+                    <h4 class="card-text">40,000+ </h4>
+                    <h4 class="card-text">students doubts cleared</h4>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 col-xl-3 col-md-3 ">
-                <div class="card  secondcard special border-0">
-                    <div class="card-body text-center">
-                        <i class="fa fa-book card1" aria-hidden="true"></i>
-                        <h4 class="card-text">20+ </h4>
-                        <h4 class="card-text">State boards</h4>
-                    </div>
-                </div>
-            </div>    
-            <div class="col-lg-3 col-md-3 col-12">
-                <div class="card secondcard special border-0">
-                    <div class="card-body text-center">
-                        <i class="fa fa-video-camera card1" aria-hidden="true"></i>
-                        <h4 class="card-text">1,000,000+ </h4>
-                        <h4 class="card-text">Video lectures</h4>
-                    </div>
+            <div class="card  secondcard special border-0">
+                <div class="card-body text-center">
+                    <i class="fa fa-book card1" aria-hidden="true"></i>
+                    <h4 class="card-text">20+ </h4>
+                    <h4 class="card-text">State boards</h4>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-12">  
-                <div class="card secondcard special border-0">
-                    <div class="card-body text-center">
-                        <i class="fa fa-book card1" aria-hidden="true"></i>
-                        <h4 class="card-text">5000+</h4>
-                        <h4 class="card-text">Books covered</h4>
-                    </div>
+            <div class="card secondcard special border-0">
+                <div class="card-body text-center">
+                    <i class="fa fa-video-camera card1" aria-hidden="true"></i>
+                    <h4 class="card-text">1,000,000+ </h4>
+                    <h4 class="card-text">Video lectures</h4>
                 </div>
-            </div> 
-        </div>  
+            </div>
+            <div class="card secondcard special border-0">
+                <div class="card-body text-center">
+                    <i class="fa fa-book card1" aria-hidden="true"></i>
+                    <h4 class="card-text">5000+</h4>
+                    <h4 class="card-text">Books covered</h4>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Cards ended -->
 
     <!-- solve doubts faster start -->
-    <div class="row ml-5">
-        <div class="col-lg-6 col-md-6 col-sm-12  mt-5">
+    <div class="row ml-5 mt-5">
+        <div class="col-lg-6 col-md-6 col-sm-12">
             <h1 class="mainheading">Solve your doubts <span class="highlighted">faster .</span></h1>
             <div class="row mt-5">
                 <div class="col-lg-2 col-md-12 col-sm-12">
@@ -136,8 +130,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
-            <img src="img/img1.jpeg" alt="img1" class="img-fluid img-responsive rounded" id="image">
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-5 pr-5">
+            <img src="img/2.png" alt="img1" class="img-fluid img-responsive rounded" id="image">
         </div>    
     </div>
     <!-- solve doubts faster ended -->
@@ -171,12 +165,12 @@
 
    <!-- Live classes start -->
    <h1 class="text-center mt-5" id="work"><span class="highlighted">Live</span> Classes</h1>
-    <div class="row ml-5">
+    <div class="row mt-5 ml-5">
        <div class="col-lg-6 col-md-6 col-sm-12">
             <iframe class="video" width="100%" height="400px" src="https://www.youtube.com/embed/RnB0VXkZ87w">
             </iframe>
        </div>
-       <div class="col-lg-6 col-md-6 col-sm-12">
+       <div class="col-lg-6 col-md-6 col-sm-12 pl-5">
            <div class="row mt-5">
                <div class="col-lg-2 col-md-12 col-sm-12">
                   <i class="fa fa-universal-access access" aria-hidden="true"></i>
@@ -206,9 +200,9 @@
             </div>    
         </div>
     </div>
-    <h1 class="text-center mt-5 highlighted" id="work">First Class Free!</h1>
+    <h1 class="text-center mt-4 highlighted" id="work">First Class Free!</h1>
     <div class="col text-center">
-        <button class="btn btn-default appbtn mt-4">
+        <button class="btn btn-default appbtn mt-3">
             Book a class now !
         </button>
     </div>
@@ -220,7 +214,7 @@
             <h1 class="text-center mt-5" id="work"><span class="highlighted">JEE</span> Mains & Advanced Preparation .</h1>
             <div class="row mt-5">
                 <div class="col-lg-6 col-md-6 col-sm-12 mt-5 ">
-                    <img src="img/roundimage5.jpeg" alt="img" class="img-responsive rounded jee" width="100%">
+                    <img src="img/1.png" alt="img" class="img-responsive rounded jee" width="100%">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mt-5 pl-5">
                     <h3 class="text-left highlighted mt-5 pt-5 ml-5" id="work">Micro Concept Videos</h3>
@@ -241,12 +235,12 @@
         <div class="container">
             <h1 class="text-center mt-5" id="work"><span class="highlighted">NEET</span> Preparation .</h1>
             <div class="row mt-5">
-                <div class="col-lg-6 col-md-6 col-sm-12 mt-5 ">
-                    <img src="img/roundimage5.jpeg" alt="img" class="img-responsive rounded jee" width="100%">
-                </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mt-5 pl-5">
                     <h3 class="text-left highlighted mt-5 pt-5 ml-5" id="work">Micro Concept Videos</h3>
                     <h5 class="text-left ml-5">Find multiple videos <br>explanations important and frequntly <br> confused concepts <br>from every subjects .</h5>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 mt-5 ">
+                    <img src="img/3.png" alt="img" class="img-responsive rounded jee" width="100%">
                 </div>
             </div>
             <div class="col text-center">
@@ -259,35 +253,28 @@
    <!-- NEET preparation ended -->
 
    <!-- Explore the subjects start -->
-   <div class="container ">
-        <h1 class="text-center mt-5 highlighted" id="work">Explore the subject with us !</h1>
-        <div class="row mt-5 pt-5 mb-5">
-            <div class="col-12 col-lg-3 col-xl-3 col-md-3 ">
-                <div class="card  secondcard  border-0">
+   <div class="container mt-5 pt-5 mb-5">
+        <h1 class="text-center highlighted" id="work">Explore the subject with us !</h1>
+            <div class="card-deck mt-5">
+                <div class="card  secondcard subjects border-0">
                     <div class="card-body text-center">
                         <i class="fa fa-superscript card1" aria-hidden="true"></i>
                         <h4 class="card-text">Maths</h4>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-3 col-xl-3 col-md-3 ">
-                <div class="card  secondcard  border-0">
+                <div class="card  secondcard subjects border-0">
                     <div class="card-body text-center">
                         <i class="fa fa-flask card1" aria-hidden="true"></i>
                         <h4 class="card-text">Chemistry</h4>
                     </div>
-                </div>
-            </div>    
-            <div class="col-lg-3 col-md-3 col-12">
-                <div class="card secondcard  border-0">
+                </div>   
+                <div class="card secondcard subjects border-0">
                     <div class="card-body text-center">
                         <i class="fa fa-book card1" aria-hidden="true"></i>
                         <h4 class="card-text">Physics</h4>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-12">  
-                <div class="card secondcard border-0">
+                <div class="card secondcard subjects border-0">
                     <div class="card-body text-center">
                         <i class="fa fa-user-md card1" aria-hidden="true"></i>
                         <h4 class="card-text">Biology</h4>
@@ -295,6 +282,11 @@
                 </div>
             </div> 
         </div>  
+        <div class="col text-center">
+            <button class="btn btn-default appbtn mt-5">
+                Download the app now 
+            </button>
+        </div>
     </div>    
   <!-- Explore the subjects ended-->
 </body>

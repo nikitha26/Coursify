@@ -30,11 +30,14 @@ html, body {
     color:rgb(28, 28, 139);
 }
 .appbtn{
-    border-radius: 15px !important;
+    border-radius: 15px 15px !important;
     padding: 15px !important;
-    background-color: rgb(201, 20, 119) !important;
+    background-color:rgb(214,11,60) !important;
     color: white !important;
     font-size: 20px !important;
+}
+.animate__fadeInUp{
+    --animate-duration: 2s;
 }
 .arrow{
     color:white;
@@ -67,16 +70,16 @@ h4{
 #image{
     width: 100%;
     height: auto;
-    border: 10px solid rgb(227, 239, 241);
+    border: 8px solid rgb(20, 221, 30);
     border-radius: 20px !important;
-    box-shadow: 5px 5px 5px 5px rgb(19, 29, 31);
+    box-shadow: 4px 4px 4px 4px rgb(111, 122, 124);
 }
 .img3{
     box-shadow:5px 5px 5px 5px rgb(216, 235, 235);
 }
 .img3:hover{
     box-shadow:1px 1px 1px 1px rgba(113, 120, 124, 0.6);
-    border:2px solid red;
+    border:2px solid rgb(255, 0, 157);
 }
 .head{
     line-height: 3 !important;
@@ -106,9 +109,12 @@ h4{
     width: 100%;
 }
 .special:hover{
-   border: 1px solid rgb(255, 0, 157) !important;
+   border: 2px solid rgb(255, 0, 157) !important;
    transform: scale(1.1);
 }
 .special{
     transition: transform .2s;
+}
+.subjects:hover{
+  box-shadow: 2px 2px 2px 2px rgb(255, 0, 157);
 }
