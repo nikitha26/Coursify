@@ -118,3 +118,10 @@ h4{
 .subjects:hover{
   box-shadow: 2px 2px 2px 2px rgb(255, 0, 157);
 }
+.view{
+    color:rgb(255, 0, 157) ;
+}
+.review{
+    box-shadow: 8px 8px 8px 8px rgb(227, 242, 243);
+    border-radius: 15px 15px;
+}
